@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/3b80ce88de.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PORTFOLIO</title>
+    <style>
+      #banner {
+        /* 높이지정 */
+        height: 35vh;
+        background-image: url("images/bg2_image.jpg");
+        background-size: contain;
+      }
+      #about {
+        text-align: center;
+        margin: 30px auto;
+        padding: 30px;
+      }
+      #about > h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+      #about > p {
+        margin: 30px auto;
+      }
+      #about > .tab_btn {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <div class="logo">
+        <p> PARK <span>Y</span>OUNG <span>Z</span>U</p>
+      </div>
+      <nav class="gnb">
+        <input type="checkbox" id="menu_btn" />
+        <label for="menu_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="main_menu">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="about.html" style="color: #7ed0de; font-weight: bolder;"
+              >ABOUT</a
+            >
+          </li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="banner"></section>
+    <section id="about">
+      <h1>ABOUT</h1>
+      <p>PARK YOUNG ZU</p>
+      <input type="radio" name="tab" id="tab1" checked />
+      <input type="radio" name="tab" id="tab2" />
+      <input type="radio" name="tab" id="tab3" />
+
+      <div class="container">
+        <div class="item">
+          <div>
+            A
+          </div>
+          <div>
+            Android
+          </div>
+          <div>
+            안드로이드 프로그램을 기본적으로 다룰 수 있습니다.
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            P
+          </div>
+          <div>
+          Program
+          </div>
+          <div>
+            HTML5 / CSS3 웹표준, 모바일웹 퍼블리싱
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            P
+          </div>
+          <div>
+            Program
+          </div>
+          <div>
+            아두이노와 자바(C언어),라즈베리파이, 포토샵과 같은 기능을 기본적으로 다룰수있습니다.
+        </div>
+      </div>
+      <div class="tab_btn">
+        <label for="tab1"></label>
+        <label for="tab2"></label>
+        <label for="tab3"></label>
+      </div>
+    </section>
+    <footer id="footer">
+      <p>
+        E-Mail. qkrdudwn980217@gmail.com
+      <p>
+        Copyright ⓒ 2020 by PARK YOUNG ZU
+      </p>
+      <p>
+        All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
